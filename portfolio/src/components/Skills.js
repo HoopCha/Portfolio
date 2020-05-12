@@ -38,17 +38,16 @@ align-items: center;
 color:#333;
 
 font-weight: bold;
--webkit-transition:all 1.5s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
 &:hover {
 -webkit-transition:all .2s ease-in-out;
-font-size: 1.5rem;
-padding: 15px
-
+margin: 15px;
+transform:scale(1.2,1.2);
 }
 `
 
 const Logo = styled.img `
-padding: 20px;
+padding: 10px 30px;
 height: auto;
 width: 3rem;
 -webkit-animation: fadein 1.5s ease-in-out;

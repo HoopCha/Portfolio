@@ -36,11 +36,11 @@ export default function Header() {
   return (
     <header>
     <Main>
-    <Link style={{textDecoration: 'none'}}><Title><Image src={floppy} className="favicon" alt="Floppy Diskette" /> Chase Hooper</Title></Link>
+    <Link to="/" style={{textDecoration: 'none'}}><Title><Image src={floppy} className="favicon" alt="Floppy Diskette" /> Chase Hooper</Title></Link>
         <div>
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/animation">Animation</StyledLink>
-        <StyledLink to="/web-dev">Web-Development</StyledLink>
+        <StyledLink to="/projects">Projects</StyledLink>
         </div>
     </Main>
     </header>
