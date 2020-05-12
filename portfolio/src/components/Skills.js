@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import breakpoint from 'styled-components-breakpoint';
+
 
 import CSS from "./images/svg/CSS_.svg"
 import Database from "./images/svg/database.svg"
@@ -24,10 +26,13 @@ text-align: center;
 `
 
 const Logos = styled.div `
-display:flex;
-justify-content:center;
-flex-wrap: wrap;
-`
+  display:flex;
+  justify-content:center;
+
+  ${ breakpoint('mobile', 'tablet')`
+    flex-wrap: wrap;
+  `};
+  `
 
 const LogoBox = styled.div `
 display:flex;
