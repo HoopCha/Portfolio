@@ -38,9 +38,10 @@ export default function Header() {
     <Main>
     <Link to="/" style={{textDecoration: 'none'}}><Title><Image src={floppy} className="favicon" alt="Floppy Diskette" /> Chase Hooper</Title></Link>
         <div>
+        <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/animation">Animation</StyledLink>
-        <StyledLink to="/projects">Projects</StyledLink>
+        <StyledLink to="/projects/web-dev">Projects</StyledLink>
         </div>
     </Main>
     </header>
