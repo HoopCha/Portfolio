@@ -40,7 +40,6 @@ export default function Header() {
         <div>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/animation">Animation</StyledLink>
         <StyledLink to="/projects/web-dev">Projects</StyledLink>
         </div>
     </Main>

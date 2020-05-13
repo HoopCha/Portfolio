@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import Socials from "./Socials";
 
+import AfterEffects from "./AfterEffects"
+
 const Main = styled.div `
 display:flex;
 flex-direction:column;
@@ -13,12 +15,7 @@ const Header = styled.div `
 display:flex;
 justify-content:space-around;
 font-size: 2rem;
-`
-
-const Image = styled.img`
-width: 150px;
-height: 150px;
-border-radius: 150px;
+border-bottom: 1px solid black;
 `
 
 const StyledLink = styled(Link) `
@@ -27,9 +24,14 @@ padding: 15px;
 margin-left: 10px;
 text-align: center;
 text-decoration: none;
+border: solid black 1px;
+border-radius: 15px;
+margin: 10px;
+-webkit-transition:all .3s ease-out;
 :hover{
   background-color: #ebebeb;
   border-radius: 15px;
+  border: solid white 1px;
 }
 `
 
@@ -40,7 +42,7 @@ export default function Animation() {
 <StyledLink to="/projects/web-dev">Web Development</StyledLink>
 <StyledLink to="/projects/animation">Animation</StyledLink>
 </Header>
-<p>test 2</p>
+<AfterEffects/>
 <Socials/>
     </Main>
   );

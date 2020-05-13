@@ -23,6 +23,8 @@ import Zbrush from "./images/zbrush.png"
 
 const Main = styled.div `
 text-align: center;
+margin: 5% 0px;
+height: 300px;
 `
 
 const Logos = styled.div `

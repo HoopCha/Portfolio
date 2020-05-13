@@ -18,15 +18,21 @@ font-size: 2rem;
 border-bottom: 1px solid black;
 `
 
+
 const StyledLink = styled(Link) `
 color: #333;
 padding: 15px;
 margin-left: 10px;
 text-align: center;
 text-decoration: none;
+border: solid black 1px;
+border-radius: 15px;
+margin: 10px;
+-webkit-transition:all .3s ease-out;
 :hover{
   background-color: #ebebeb;
   border-radius: 15px;
+  border: solid white 1px;
 }
 `
 

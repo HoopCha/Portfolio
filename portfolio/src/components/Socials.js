@@ -7,10 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Main = styled.div `
+
 text-align: center;
 `
 
 const Logos = styled.div `
+border-top: 1px solid black;
 display:flex;
 justify-content:center;
 flex-wrap: wrap;
@@ -24,6 +26,7 @@ text-decoration: none;
 `
 
 const LogoBox = styled.div `
+
 display:flex;
 align-content: flex-end;
 justify-content: flex-start;
