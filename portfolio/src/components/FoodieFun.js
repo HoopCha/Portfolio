@@ -1,7 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 
-import { faArtstation, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
 

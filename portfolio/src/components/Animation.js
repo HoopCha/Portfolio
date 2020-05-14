@@ -37,12 +37,13 @@ margin: 10px;
 }
 `
 
+
 export default function Animation() {
   return (
     <Main>
 <Header>
-<StyledLink to="/projects/web-dev">Web Development</StyledLink>
-<StyledLink to="/projects/animation">Animation</StyledLink>
+<StyledLink to="/projects/web-dev" >Web Development</StyledLink>
+<StyledLink to="/projects/animation" style={{backgroundColor: "#ebebeb", border: "white"}}>Animation</StyledLink>
 </Header>
 <AfterEffects/>
 <AvastYe/>

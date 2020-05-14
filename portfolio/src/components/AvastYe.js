@@ -2,14 +2,14 @@ import React from "react";
 import { faSteam } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
+import { Main, Main2, About, StyledLink, LogoBox} from "./styling"
 
 export default function AvastYe() {
   return (
     <Main>
 <Main2>
 <h2>Avast Ye</h2>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/tTR3fUmbIwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/tTR3fUmbIwE" title="AvaseYe" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </Main2>
 <Main2>
 <h3>3D Modeler | Environment Layout | Procedural Tool Creation</h3>

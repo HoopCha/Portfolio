@@ -43,7 +43,7 @@ export default function Projects() {
   return (
     <Main>
 <Header>
-<StyledLink to="/projects/web-dev">Web Development</StyledLink>
+<StyledLink to="/projects/web-dev" style={{backgroundColor: "#ebebeb", border: "white"}} >Web Development </StyledLink>
 <StyledLink to="/projects/animation">Animation</StyledLink>
 </Header>
 <SpeakOut/>

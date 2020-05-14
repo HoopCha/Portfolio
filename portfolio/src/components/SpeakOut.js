@@ -1,16 +1,15 @@
 import React from "react";
-import styled from "styled-components";
-import { faArtstation, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
+import { Main, Main2, About, StyledLink, LogoBox} from "./styling"
 
 export default function SpeakOut() {
   return (
 <Main>
 <Main2>
 <h1 >Speak Out</h1>
-<iframe src="https://player.vimeo.com/video/418086837" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/418086837" title="SpeakOut" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
 </Main2>
 <Main2>
 <h3>FRONT-END DEVELOPER | UI/UX DESIGNER </h3>
