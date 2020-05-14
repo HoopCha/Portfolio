@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import styled from "styled-components";
-import floppy from './images/floppy.png'
+import BB from './images/bouncingball.png'
 
 const Title = styled.h1`
   font-size: 2.5rem;
@@ -36,7 +36,7 @@ export default function Header() {
   return (
     <header>
     <Main>
-    <Link to="/" style={{textDecoration: 'none'}}><Title><Image src={floppy} className="favicon" alt="Floppy Diskette" /> Chase Hooper</Title></Link>
+    <Link to="/" style={{textDecoration: 'none'}}><Title><Image src={BB} className="favicon" alt="Bouncing Ball" /> Chase Hooper</Title></Link>
         <div>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>

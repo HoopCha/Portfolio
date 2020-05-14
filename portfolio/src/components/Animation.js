@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import Socials from "./Socials";
 
 import AfterEffects from "./AfterEffects"
+import AvastYe from "./AvastYe"
+import DnD from "./DnD"
 
 const Main = styled.div `
 display:flex;
@@ -43,6 +45,8 @@ export default function Animation() {
 <StyledLink to="/projects/animation">Animation</StyledLink>
 </Header>
 <AfterEffects/>
+<AvastYe/>
+<DnD/>
 <Socials/>
     </Main>
   );

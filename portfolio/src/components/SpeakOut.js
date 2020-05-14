@@ -3,52 +3,13 @@ import styled from "styled-components";
 import { faArtstation, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Main = styled.div `
-display:flex;
-justify-content:center;
-padding: 5% 14%;
-`
-const Main2 = styled.div `
-display:flex;
-flex-direction:column;
-justify-content:center;
-padding: 0% 7%;
-`
+import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
 
-const About = styled.div `
-padding: 0px;
-width:500px;
-`
-
-const StyledLink = styled.a `
-text-decoration: none;
-width:50%;
-:hover{
-  background-color: #ebebeb;
-  border-radius: 15px;
-}
-`
-
-const LogoBox = styled.div `
-display:flex;
-align-items: center;
-color:#333;
-flex-direction:column;
-font-weight: bold;
-padding: 1rem;
--webkit-transition:all .6s ease-in-out;
-&:hover {
--webkit-transition:all .2s ease-in-out;
-transform:scale(1.1,1.1);
-}
-`
-
-
-export default function Project() {
+export default function SpeakOut() {
   return (
-    <Main>
+<Main>
 <Main2>
-<h2>Speak Out</h2>
+<h1 >Speak Out</h1>
 <iframe src="https://player.vimeo.com/video/418086837" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </Main2>
 <Main2>

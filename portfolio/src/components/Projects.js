@@ -3,7 +3,10 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import Socials from "./Socials";
 
-import Project from "./Project"
+import SpeakOut from "./SpeakOut"
+import CoachingGroup from "./CoachingGroup"
+import FoodieFun from "./FoodieFun"
+
 
 const Main = styled.div `
 display:flex;
@@ -43,7 +46,9 @@ export default function Projects() {
 <StyledLink to="/projects/web-dev">Web Development</StyledLink>
 <StyledLink to="/projects/animation">Animation</StyledLink>
 </Header>
-<Project/>
+<SpeakOut/>
+<FoodieFun/>
+<CoachingGroup/>
 <Socials/>
     </Main>
   );

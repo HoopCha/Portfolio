@@ -1,48 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Main = styled.div `
-display:flex;
-justify-content:center;
-padding: 5% 14%;
-`
-const Main2 = styled.div `
-display:flex;
-flex-direction:column;
-justify-content:center;
-padding: 0% 7%;
-`
-
-const About = styled.div `
-padding: 0px;
-width:500px;
-`
-
-const StyledLink = styled.a `
-text-decoration: none;
-width:50%;
-:hover{
-  background-color: #ebebeb;
-  border-radius: 15px;
-}
-`
-
-const LogoBox = styled.div `
-display:flex;
-align-items: center;
-color:#333;
-flex-direction:column;
-font-weight: bold;
-padding: 1rem;
--webkit-transition:all .6s ease-in-out;
-&:hover {
--webkit-transition:all .2s ease-in-out;
-transform:scale(1.03,1.03);
-}
-`
-
+import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
 
 export default function Project() {
   return (
