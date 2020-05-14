@@ -36,7 +36,7 @@ margin: 0px;
 
 const Sides = styled.h1 `
 position: relative;
-animation: 0.7s customBounce ease 0.4s both;
+animation: 0.9s customBounce ease 0.6s both;
 display: grid;
 margin: 0px;
 grid-template-columns: 50vw 50vw;
