@@ -14,6 +14,7 @@ import Terraform from "./images/boardgames/terraformingmars.png"
 
 const Main = styled.div `
 text-align: center;
+padding: 30px;
 `
 
 const Logos = styled.div `

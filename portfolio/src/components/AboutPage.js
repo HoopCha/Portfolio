@@ -87,6 +87,10 @@ margin: 0px;
 font-size: 3rem;
 `
 
+const Line = styled.h2 `
+border-top: 1px solid black;
+width:100%;
+`
 
 const Body = styled.p `
 margin: 0px;
@@ -108,10 +112,11 @@ export default function WelcomePage() {
           </Body>
           <h2></h2>
          <Body>With a strong background with design and UI/UX, I'm looking for any opportunties to continue learning and creating better products with my skills. </Body>
-         <h2></h2>
-         <Body>In my spare time, I'm either running, watching a movie, or playing a board game! Check out some of my favorite ones below.</Body>
+         <Skills/>
+         <Line></Line>
+         <Body>In my spare time, I'm either running, watching a movie, or playing a board game!<br/> Check out some of my favorite ones below.</Body>
          <BoardGames/>
-<Skills/>
+
 <Socials/>
        </Main>
      );

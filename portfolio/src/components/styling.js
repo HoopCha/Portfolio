@@ -52,11 +52,13 @@ width:50%;
 `;
 
 export const Video = styled.iframe `
+max-width: 640px;
+max-height: 100%;
 ${ breakpoint('mobile', 'tablet')`
 max-width: 100%;
 `};
 ${ breakpoint('tablet', 'desktop')`
-max-width: 100%;
+max-width: 90%;
 `};
 `;
 
