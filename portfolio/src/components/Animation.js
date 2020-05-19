@@ -26,6 +26,10 @@ display:flex;
 justify-content:space-around;
 font-size: 2rem;
 border-bottom: 1px solid black;
+
+${ breakpoint('mobile', 'tablet')`
+flex-direction:column;
+`};
 `
 
 const StyledLink = styled(Link) `
