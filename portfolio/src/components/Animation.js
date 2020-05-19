@@ -17,6 +17,9 @@ padding: 0% 24%;
 ${ breakpoint('mobile', 'tablet')`
 padding: 0% 2%;
 `};
+${ breakpoint('tablet', 'desktop')`
+padding: 0% 0%;
+`};
 `
 const Header = styled.div `
 display:flex;

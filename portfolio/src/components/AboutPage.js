@@ -12,7 +12,7 @@ flex-direction:column;
 justify-content:center;
 padding: 3% 24%;
 ${ breakpoint('mobile', 'tablet')`
-padding: 3% 15%;
+padding: 0% 5%;
 `};
 ${ breakpoint('tablet', 'desktop')`
 padding: 3% 10%;

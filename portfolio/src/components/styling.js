@@ -7,8 +7,13 @@ display:flex;
 justify-content:center;
 padding: 5% 14%;
 border-bottom: 1px solid black;
-
 ${ breakpoint('mobile', 'tablet')`
+flex-direction: column;
+align-items: center;
+max-width: 100%;
+`};
+
+${ breakpoint('tablet', 'desktop')`
 flex-direction: column;
 align-items: center;
 max-width: 100%;
@@ -21,14 +26,18 @@ flex-direction:column;
 justify-content:center;
 align-items: flex-start;
 padding: 0% 7%;
-max-width: 100%;
-
+${ breakpoint('mobile', 'tablet')`
+width: 90vw;
+`};
 `;
 
 export const About = styled.div `
 padding: 0px;
 width:500px;
 ${ breakpoint('mobile', 'tablet')`
+max-width: 100%;
+`};
+${ breakpoint('tablet', 'desktop')`
 max-width: 100%;
 `};
 `;
@@ -44,7 +53,9 @@ width:50%;
 
 export const Video = styled.iframe `
 ${ breakpoint('mobile', 'tablet')`
-
+max-width: 100%;
+`};
+${ breakpoint('tablet', 'desktop')`
 max-width: 100%;
 `};
 `;

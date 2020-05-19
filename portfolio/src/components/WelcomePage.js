@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import breakpoint from 'styled-components-breakpoint';
 
 import Skills from "./Skills"
 import Socials from "./Socials";
@@ -8,6 +9,13 @@ import Socials from "./Socials";
 const Main = styled.div `
 text-align: center;
 padding: 3% 24%;
+padding: 3% 24%;
+${ breakpoint('mobile', 'tablet')`
+padding: 0% 5%;
+`};
+${ breakpoint('tablet', 'desktop')`
+padding: 3% 10%;
+`};
 `
 
 export default function WelcomePage() {
