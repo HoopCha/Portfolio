@@ -11,6 +11,7 @@ border-bottom: 1px solid black;
 ${ breakpoint('mobile', 'tablet')`
 flex-direction: column;
 align-items: center;
+max-width: 100%;
 `};
 `;
 
@@ -20,11 +21,16 @@ flex-direction:column;
 justify-content:center;
 align-items: flex-start;
 padding: 0% 7%;
+max-width: 100%;
+
 `;
 
 export const About = styled.div `
 padding: 0px;
 width:500px;
+${ breakpoint('mobile', 'tablet')`
+max-width: 100%;
+`};
 `;
 
 export const StyledLink = styled.a `
@@ -34,6 +40,13 @@ width:50%;
   background-color: #ebebeb;
   border-radius: 15px;
 }
+`;
+
+export const Video = styled.iframe `
+${ breakpoint('mobile', 'tablet')`
+
+max-width: 100%;
+`};
 `;
 
 export const LogoBox = styled.div `
@@ -52,5 +65,9 @@ transform:scale(1.1,1.1);
 
 export const Image = styled.img `
 max-width: 640px;
-max-height: 360px;
+max-height: 100%;
+${ breakpoint('mobile', 'tablet')`
+max-width: 100%;
+height:auto;
+`};
 `;

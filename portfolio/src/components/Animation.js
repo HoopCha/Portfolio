@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import Socials from "./Socials";
+import breakpoint from 'styled-components-breakpoint';
 
 import AfterEffects from "./AnimationProjects/AfterEffects"
 import AvastYe from "./AnimationProjects/AvastYe"
@@ -13,6 +14,9 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 padding: 0% 24%;
+${ breakpoint('mobile', 'tablet')`
+padding: 0% 2%;
+`};
 `
 const Header = styled.div `
 display:flex;

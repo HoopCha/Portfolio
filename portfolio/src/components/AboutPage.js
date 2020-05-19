@@ -4,6 +4,7 @@ import Profile from "./images/profile.jpg";
 import Socials from "./Socials";
 import Skills from "./Skills"
 import breakpoint from 'styled-components-breakpoint';
+import BoardGames from "./BoardGames";
 
 const Main = styled.div `
 display:flex;
@@ -102,26 +103,16 @@ export default function WelcomePage() {
           </Sides>
          </Wrapper>
          <h2>My Background:</h2>
-         <Body>I got my BA in Computer Animation. I love design and problem solving, and after getting many opportunities to start building procedural tools, I started to realize how much I love the problem solving process that coding provides. I then enrolled at Lambda School, a school that taught full stack web development and have been coding and designing ever since.
+         <Body>I'm a Full Stack Web Developer from Provo, Utah!</Body>
+         <Body>I got my BA in Computer Animation. I love design and problem solving, and after building many procedural tools, I started to realize how much I love the problem solving process that coding provides. I then enrolled at Lambda School, a school that taught full stack web development and have been coding and designing ever since.
           </Body>
           <h2></h2>
-         <Body>With a strong background with design and UI/UX, Im looking for any opportunties to continue learning and creating better products with my skills. 
-          </Body>
+         <Body>With a strong background with design and UI/UX, I'm looking for any opportunties to continue learning and creating better products with my skills. </Body>
+         <h2></h2>
+         <Body>In my spare time, I'm either running, watching a movie, or playing a board game! Check out some of my favorite ones below.</Body>
+         <BoardGames/>
 <Skills/>
 <Socials/>
        </Main>
      );
 }
-
-
-// export default function WelcomePage() {
-//   return (
-//     <Main>
-//     <Header>
-//     <Image src={Profile} />
-//     <h1 style={{margin: '0px'}}>Hi, I'm Chase.</h1>
-//     </Header>
-
-//     </Main>
-//   );
-// }
