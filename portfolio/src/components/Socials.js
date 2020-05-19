@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Main = styled.div `
-
 text-align: center;
 `
 
