@@ -3,9 +3,10 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import Socials from "./Socials";
 
-import AfterEffects from "./AfterEffects"
-import AvastYe from "./AvastYe"
-import DnD from "./DnD"
+import AfterEffects from "./AnimationProjects/AfterEffects"
+import AvastYe from "./AnimationProjects/AvastYe"
+import DnD from "./AnimationProjects/DnD"
+import Fence from "./AnimationProjects/Fence"
 
 const Main = styled.div `
 display:flex;
@@ -48,6 +49,7 @@ export default function Animation() {
 <AfterEffects/>
 <AvastYe/>
 <DnD/>
+<Fence/>
 <Socials/>
     </Main>
   );

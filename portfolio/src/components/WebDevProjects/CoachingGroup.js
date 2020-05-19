@@ -3,9 +3,9 @@ import React from "react";
 import { faExternalLinkSquareAlt} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import CGI from "./images/coachinggroup.JPG"
+import CGI from "../images/coachinggroup.JPG"
 
-import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
+import { Main, Main2, About, StyledLink, LogoBox, Image} from "../styling"
 
 export default function SpeakOut() {
   return (

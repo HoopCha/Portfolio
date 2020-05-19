@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoint from 'styled-components-breakpoint';
 
 
 export const Main = styled.div `
@@ -6,6 +7,11 @@ display:flex;
 justify-content:center;
 padding: 5% 14%;
 border-bottom: 1px solid black;
+
+${ breakpoint('mobile', 'tablet')`
+flex-direction: column;
+align-items: center;
+`};
 `;
 
 export const Main2 = styled.div `

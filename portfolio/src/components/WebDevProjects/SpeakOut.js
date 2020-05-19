@@ -2,7 +2,7 @@ import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Main, Main2, About, StyledLink, LogoBox} from "./styling"
+import { Main, Main2, About, StyledLink, LogoBox} from "../styling"
 
 export default function SpeakOut() {
   return (

@@ -101,14 +101,12 @@ export default function WelcomePage() {
             <Side style={{justifyContent: 'flex-start'}}><Title>Hi, I'm Chase.</Title></Side>
           </Sides>
          </Wrapper>
-         <Body>A highly creative animator who has studied and worked for seven
-years in industry. My specialty is building detailed 3D models that
-bring stories to life while using the most efficient processes.
-Abilities that assist this modeling work are, intentional and
-practiced observation, capturing the nuances of a technical
-challenge, high attention to detail, as well as a strong framework
-for technical problem-solving.
-</Body>
+         <h2>My Background:</h2>
+         <Body>I got my BA in Computer Animation. I love design and problem solving, and after getting many opportunities to start building procedural tools, I started to realize how much I love the problem solving process that coding provides. I then enrolled at Lambda School, a school that taught full stack web development and have been coding and designing ever since.
+          </Body>
+          <h2></h2>
+         <Body>With a strong background with design and UI/UX, Im looking for any opportunties to continue learning and creating better products with my skills. 
+          </Body>
 <Skills/>
 <Socials/>
        </Main>

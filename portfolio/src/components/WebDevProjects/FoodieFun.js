@@ -2,9 +2,9 @@ import React from "react";
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
+import { Main, Main2, About, StyledLink, LogoBox, Image} from "../styling"
 
-import Fries from "./images/fries.jpg"
+import Fries from "../images/fries.jpg"
 
 export default function FoodieFun() {
   return (

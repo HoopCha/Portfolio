@@ -2,8 +2,8 @@ import React from "react";
 import { faVimeo } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import DnD from "./images/dnd.JPG"
-import { Main, Main2, About, StyledLink, LogoBox, Image} from "./styling"
+import DnD from "../images/dnd.JPG"
+import { Main, Main2, About, StyledLink, LogoBox, Image} from "../styling"
 
 export default function AvastYe() {
   return (

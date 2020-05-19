@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import Socials from "./Socials";
 
-import SpeakOut from "./SpeakOut"
-import CoachingGroup from "./CoachingGroup"
-import FoodieFun from "./FoodieFun"
+import SpeakOut from "./WebDevProjects/SpeakOut"
+import CoachingGroup from "./WebDevProjects/CoachingGroup"
+import FoodieFun from "./WebDevProjects/FoodieFun"
 
 
 const Main = styled.div `

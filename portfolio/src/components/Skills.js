@@ -25,6 +25,9 @@ const Main = styled.div `
 text-align: center;
 margin: 5% 0px;
 height: 300px;
+${ breakpoint('mobile', 'tablet')`
+height: auto;
+`};
 `
 
 const Logos = styled.div `
@@ -51,6 +54,13 @@ font-weight: bold;
 margin: 15px;
 transform:scale(1.2,1.2);
 }
+${ breakpoint('mobile', 'tablet')`
+&:hover {
+  -webkit-transition:all 0s ease-in-out;
+  margin: 0px;
+  transform:scale(1,1);
+  }
+`};
 `
 
 const Logo = styled.img `
