@@ -37,43 +37,18 @@ margin: 0px;
 
 const Sides = styled.h1 `
 position: relative;
--webkit-animation: 0.9s customBounce ease 0.6s both;
 animation: 0.9s customBounce ease 0.6s both;
 display: grid;
 margin: 0px;
 grid-template-columns: 50vw 50vw;
-@-webkit-keyframes customBounce {
-  0% {
-    grid-gap: 100vw;
-  }
-  12% {
-    grid-gap: 90vw;
-  }
-  24% {
-    grid-gap: 57vw;
-  }
-  36% {
-    grid-gap: 3vw;
-  }
-  54% {
-    grid-gap: 25vw;
-  }
-  74% {
-    grid-gap: 2.5vw;
-  }
-  82% {
-    grid-gap: 6.25vw;
-  }
-  92% {
-    grid-gap: .7vw;
-  }
-  96% {
-    grid-gap: 1.5vw;
-  }
-  100% {
-    grid-gap: 0;
-  }
-}
+
+${ breakpoint('mobile', 'tablet')`
+animation: 0s customBounce ease both;
+`};
+
+${ breakpoint('tablet', 'desktop')`
+animation: 0s customBounce ease both;
+`};
 
 @keyframes customBounce {
   0% {
