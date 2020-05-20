@@ -117,10 +117,10 @@ export default function WelcomePage() {
          </Wrapper>
          <h2>My Background:</h2>
          <Body>I'm a Full Stack Web Developer from Provo, Utah!</Body>
-         <Body>I got my BA in Computer Animation. I love design and problem solving, and after building many procedural tools, I started to realize how much I love the problem solving process that coding provides. I then enrolled at Lambda School, a school that taught full stack web development and have been coding and designing ever since.
+         <Body>I received my BA in Computer Animation. I love design and problem solving, and after building many procedural tools, I started to realize how much passion I have for the problem solving process that coding provides. I then enrolled at Lambda School, a school that teaches full stack web development and have been coding and designing ever since.
           </Body>
           <h2></h2>
-         <Body>With a strong background with design and UI/UX, I'm looking for any opportunties to continue learning and creating better products with my skills. </Body>
+         <Body>With a strong background with design and UI/UX, I'm looking for opportunities to create better products with my skills and add value to your . </Body>
          <Skills/>
          <Line></Line>
          <Body>In my spare time, I'm either running, watching a movie, or playing a board game!<br/> Check out some of my favorite ones below.</Body>

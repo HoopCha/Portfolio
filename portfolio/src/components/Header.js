@@ -18,6 +18,7 @@ display:flex;
 flex-wrap: wrap;
 justify-content:space-around;
 align-items: center;
+#border-bottom: 1px solid black;
 `
 
 const StyledLink = styled(Link) `

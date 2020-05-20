@@ -15,7 +15,7 @@ export default function AvastYe() {
 <Main2>
 <h3>3D Modeler</h3>
 <About>Film done in a cubist style that led to 'multi-perspective' models that led to unique challenges. Modeled a majority of environment props. A disgruntled corporate grim reaper gets his chance for a promotion in his new assignment, but that turns out to be a bigger challenge than expected. </About>
-<StyledLink href="https://vimeo.com/364122139" target="_blank"><LogoBox><FontAwesomeIcon icon={faVimeo} size="2x" /> Watch the full thing here</LogoBox></StyledLink>
+<StyledLink href="https://vimeo.com/364122139" target="_blank"><LogoBox><FontAwesomeIcon icon={faVimeo} size="2x" /> Watch the short-film here</LogoBox></StyledLink>
 </Main2>
     </Main>
   );

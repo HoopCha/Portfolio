@@ -9,13 +9,20 @@ import Socials from "./Socials";
 const Main = styled.div `
 text-align: center;
 padding: 3% 24%;
-padding: 3% 24%;
 ${ breakpoint('mobile', 'tablet')`
 padding: 0% 5%;
 `};
 ${ breakpoint('tablet', 'desktop')`
 padding: 3% 10%;
 `};
+`
+
+const Grid = styled.div `
+height: 80vh;
+width: auto;
+border: 10px solid #14a76c;
+display: flex;
+flex-wrap: wrap;
 `
 
 export default function WelcomePage() {

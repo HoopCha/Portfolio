@@ -14,7 +14,7 @@ export default function Project() {
 <Main2>
 <h3>Animator | Generalist</h3>
 <About>A collection of some work I did in 2018, worked with a team of others to create videos for professors.
-Responsible for most the Asset Creation, Rigs, Animation, Story Boards, and Effects.</About>
+Responsible for most of the Asset Creation, Rigs, Animation, Story Boards, and Effects.</About>
 <StyledLink href="https://www.youtube.com/watch?v=SWFimEg7NVA&list=PLd7-auskepbKQ0B4Hc4rFxHVhmzgS9Ra5&index=2&t=0s" target="_blank"><LogoBox><FontAwesomeIcon icon={faYoutube} size="2x" /> View examples of full videos here</LogoBox></StyledLink>
 </Main2>
     </Main>

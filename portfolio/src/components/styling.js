@@ -77,7 +77,7 @@ transform:scale(1.1,1.1);
 `;
 
 export const Image = styled.img `
-max-width: 640px;
+width: 640px;
 max-height: 100%;
 ${ breakpoint('mobile', 'tablet')`
 max-width: 100%;
