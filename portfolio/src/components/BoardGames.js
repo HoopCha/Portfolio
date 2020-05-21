@@ -28,8 +28,6 @@ const Logos = styled.div `
   `
 
 const LogoBox = styled.div `
-max-width: 30%;
-height: auto;
 
 ${ breakpoint('mobile', 'tablet')`
 max-width: 50%;
@@ -56,17 +54,22 @@ padding: 10px 30px;
     100%   { opacity: 1; transform:scale(1,1); }
 }
 `
+const StyledLink = styled.a `
+text-decoration: none;
+max-width: 30%;
+height: auto;
+`
 
 export default function BoardGames() {
   return (
     <Main>
     <Logos>
-    <LogoBox><Logo src={CamelUp}/> Camel Up </LogoBox>
-    <LogoBox><Logo src={CaptainSonar}/> Captain Sonar </LogoBox>
-    <LogoBox><Logo src={Clank}/> Clank </LogoBox>
-    <LogoBox><Logo src={Quacks}/> Quacks of Quedlinburg </LogoBox>
-    <LogoBox><Logo src={Skull}/> Skull </LogoBox>
-    <LogoBox><Logo src={Terraform}/> Terraforming Mars </LogoBox>
+    <StyledLink href="https://boardgamegeek.com/boardgame/260605/camel-second-edition" target="_blank"><LogoBox><Logo src={CamelUp}/> Camel Up </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/171131/captain-sonar" target="_blank"><LogoBox><Logo src={CaptainSonar}/> Captain Sonar </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/201808/clank-deck-building-adventure" target="_blank"><LogoBox><Logo src={Clank}/> Clank </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg" target="_blank"><LogoBox><Logo src={Quacks}/> Quacks of Quedlinburg </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/92415/skull" target="_blank"><LogoBox><Logo src={Skull}/> Skull </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/167791/terraforming-mars" target="_blank"><LogoBox><Logo src={Terraform}/> Terraforming Mars </LogoBox></StyledLink>
     </Logos>
     </Main>
   );

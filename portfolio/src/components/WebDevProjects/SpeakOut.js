@@ -7,8 +7,8 @@ import { Main, Main2, About, StyledLink, LogoBox, Video} from "../styling"
 export default function SpeakOut() {
   return (
 <Main>
-<Main2>
-<h1 >Speak Out</h1>
+<Main2 style={{justifyContent: 'flex-start'}}>
+<h1 style={{marginTop: '0px'}}>Speak Out</h1>
 <Video src="https://player.vimeo.com/video/418086837" title="SpeakOut" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></Video>
 </Main2>
 <Main2>
