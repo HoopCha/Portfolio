@@ -28,7 +28,7 @@ flex-wrap: wrap;
 export default function WelcomePage() {
   return (
     <Main>
-    <h2 style={{textAlign: 'left'}}>Hi, I'm Chase Hooper!<br></br> A Full Stack Web Developer, with a background in Animation and UX</h2>
+    <h2 style={{textAlign: 'left'}}>Hi, I'm Chase Hooper!<br></br> A Full Stack Web Developer, with a background in Animation and UX Design.</h2>
     <Skills/>
     <Socials/>
     </Main>
