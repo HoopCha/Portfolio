@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { faArtstation, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -47,7 +48,8 @@ export default function Skills() {
     <Logos>
     <StyledLink href="https://github.com/HoopCha" target="_blank"><LogoBox><FontAwesomeIcon icon={faGithub} size="2x" /> Github</LogoBox></StyledLink>
     <StyledLink href="https://www.artstation.com/hoopcha" target="_blank"><LogoBox><FontAwesomeIcon icon={faArtstation} size="2x" /> Art Station  </LogoBox></StyledLink>
-    <StyledLink href="https://www.linkedin.com/in/chase-hooper/" target="_blank"><LogoBox><FontAwesomeIcon icon={faLinkedin} size="2x" /> linkedin  </LogoBox></StyledLink>
+    <StyledLink href="https://www.linkedin.com/in/chase-hooper/" target="_blank"><LogoBox><FontAwesomeIcon icon={faLinkedin} size="2x" /> Linkedin  </LogoBox></StyledLink>
+    <StyledLink href="mailto:chasenhooper@outlook.com" target="_blank"><LogoBox><FontAwesomeIcon icon={faEnvelope} size="2x" /> Email  </LogoBox></StyledLink>
     </Logos>
     </Main>
   );
