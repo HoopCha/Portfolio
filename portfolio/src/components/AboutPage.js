@@ -116,7 +116,7 @@ export default function WelcomePage() {
           </Sides>
          </Wrapper>
          <h2>My Background:</h2>
-         <Body>I'm a Full Stack Web Developer from Provo, Utah!</Body>
+         <Body>I'm a Full Stack Web Developer from Provo, Utah</Body>
          <Body>I received my BA in Computer Animation. I love design and problem solving, and after building many procedural tools, I started to realize how much passion I have for the problem solving process that coding provides. I then enrolled at Lambda School, a school that teaches full stack web development and have been coding and designing ever since.
           </Body>
           <h2></h2>

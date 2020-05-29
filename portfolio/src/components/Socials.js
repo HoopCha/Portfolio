@@ -44,7 +44,7 @@ transform:scale(1.1,1.1);
 export default function Skills() {
   return (
     <Main>
-            <p>Connect with me!</p>
+            <p>Connect with me</p>
     <Logos>
     <StyledLink href="https://github.com/HoopCha" target="_blank"><LogoBox><FontAwesomeIcon icon={faGithub} size="2x" /> Github</LogoBox></StyledLink>
     <StyledLink href="https://www.artstation.com/hoopcha" target="_blank"><LogoBox><FontAwesomeIcon icon={faArtstation} size="2x" /> Art Station  </LogoBox></StyledLink>
