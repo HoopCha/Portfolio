@@ -11,6 +11,7 @@ import Node from "./images/svg/node.svg"
 import Python from "./images/svg/python.svg"
 import ReactLogo from "./images/svg/react.svg"
 import HTML from "./images/svg/HTML_.svg"
+import GraphQL from "./images/graphql.png"
 
 import AE from "./images/aftereffects.svg"
 import Houdini from "./images/houdini.png"
@@ -85,6 +86,7 @@ export default function Skills() {
     <LogoBox><Logo src={CSS}/> CSS </LogoBox>
     <LogoBox><Logo src={Python}/> Python </LogoBox>
     <LogoBox><Logo src={Node} style={{width: '5rem'}}/> Node </LogoBox>
+    <LogoBox><Logo src={GraphQL}/> GraphQL </LogoBox>
     <LogoBox><Logo src={HTML}/> HTML </LogoBox>
     <LogoBox><Logo src={Git}/> Git </LogoBox>
     <LogoBox><Logo src={Database} style={{height: '3.1rem'}}/> SQL </LogoBox>

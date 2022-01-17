@@ -9,6 +9,7 @@ import Clank from "./images/boardgames/clank.png"
 import Quacks from "./images/boardgames/quacks.png"
 import Skull from "./images/boardgames/Skull.png"
 import Terraform from "./images/boardgames/terraformingmars.png"
+import SpiritIsland from "./images/boardgames/spiritIsland.png"
 
 
 
@@ -64,12 +65,13 @@ export default function BoardGames() {
   return (
     <Main>
     <Logos>
+    <StyledLink href="https://boardgamegeek.com/boardgame/260605/camel-second-edition" target="_blank"><LogoBox><Logo src={SpiritIsland}/> Spirit Island </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/167791/terraforming-mars" target="_blank"><LogoBox><Logo src={Terraform}/> Terraforming Mars </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/260605/camel-second-edition" target="_blank"><LogoBox><Logo src={CamelUp}/> Camel Up </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/171131/captain-sonar" target="_blank"><LogoBox><Logo src={CaptainSonar}/> Captain Sonar </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/201808/clank-deck-building-adventure" target="_blank"><LogoBox><Logo src={Clank}/> Clank </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg" target="_blank"><LogoBox><Logo src={Quacks}/> Quacks of Quedlinburg </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/92415/skull" target="_blank"><LogoBox><Logo src={Skull}/> Skull </LogoBox></StyledLink>
-    <StyledLink href="https://boardgamegeek.com/boardgame/167791/terraforming-mars" target="_blank"><LogoBox><Logo src={Terraform}/> Terraforming Mars </LogoBox></StyledLink>
     </Logos>
     </Main>
   );
