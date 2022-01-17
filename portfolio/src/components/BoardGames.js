@@ -65,7 +65,7 @@ export default function BoardGames() {
   return (
     <Main>
     <Logos>
-    <StyledLink href="https://boardgamegeek.com/boardgame/260605/camel-second-edition" target="_blank"><LogoBox><Logo src={SpiritIsland}/> Spirit Island </LogoBox></StyledLink>
+    <StyledLink href="https://boardgamegeek.com/boardgame/162886/spirit-island" target="_blank"><LogoBox><Logo src={SpiritIsland}/> Spirit Island </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/167791/terraforming-mars" target="_blank"><LogoBox><Logo src={Terraform}/> Terraforming Mars </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/260605/camel-second-edition" target="_blank"><LogoBox><Logo src={CamelUp}/> Camel Up </LogoBox></StyledLink>
     <StyledLink href="https://boardgamegeek.com/boardgame/171131/captain-sonar" target="_blank"><LogoBox><Logo src={CaptainSonar}/> Captain Sonar </LogoBox></StyledLink>
